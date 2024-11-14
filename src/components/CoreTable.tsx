@@ -1,5 +1,5 @@
 import React from "react";
-import { Table } from "@mantine/core";
+import { Table, Text } from "@mantine/core";
 
 interface CropTableProps {
   data: { year: number; maxCrop: string; minCrop: string }[];
@@ -7,6 +7,8 @@ interface CropTableProps {
 
 const CropTable: React.FC<CropTableProps> = ({ data }) => (
   <Table style={{ border: "1px solid black" }}>
+    <Table.Thead style={{ fontWeight: "bold" }}>Table 1</Table.Thead>
+    <br />
     <Table.Thead>
       <Table.Tr>
         <Table.Th>Year</Table.Th>

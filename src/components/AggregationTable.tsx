@@ -7,6 +7,8 @@ interface AggregationTableProps {
 
 const AggregationTable: React.FC<AggregationTableProps> = ({ data }) => (
   <Table style={{ border: "1px solid black" }}>
+    <Table.Thead style={{ fontWeight: "bold" }}>Table 2</Table.Thead>
+    <br />
     <Table.Thead>
       <Table.Tr>
         <Table.Th>Crop</Table.Th>
