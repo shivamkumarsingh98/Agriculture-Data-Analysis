@@ -71,6 +71,7 @@ Average cultivation area of each crop between 1950 and 2020.
 
 
 6. **Folder Structure**:
+   ```bash
 Agriculture-Data-Analysis/
 ├── data/
 │   └── agricultureData.json
@@ -86,7 +87,7 @@ Agriculture-Data-Analysis/
 ├── yarn.lock
 └── README.md
 
-7. **Technologies Used**:
+8. **Technologies Used**:
 TypeScript: Used for type safety and development efficiency.
 Mantine v7: A React component library for rendering styled tables without the use of external CSS libraries.
 Yarn: A package manager for installing dependencies.
