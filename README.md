@@ -36,6 +36,7 @@ Make sure you have the following installed:
    ``bash
    yarn install
 
-2. **Run this Project;**
+2. **Run this Project:**
+   ```bash
    yarn dev
 
