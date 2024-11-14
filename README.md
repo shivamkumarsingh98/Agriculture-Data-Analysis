@@ -72,7 +72,7 @@ Average cultivation area of each crop between 1950 and 2020.
 
 6. **Folder Structure**:
    ```bash
-Agriculture-Data-Analysis/
+   Agriculture-Data-Analysis/
 ├── data/
 │   └── agricultureData.json
 ├── images/
